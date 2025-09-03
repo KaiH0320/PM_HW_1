@@ -10,6 +10,12 @@ index_data["Date"] = pd.to_datetime(index_data["Date"])
 factor_data = pd.read_excel("DATA/HW1_Factors.xlsx")
 factor_data = factor_data.rename(columns={"Unnamed: 0": "Date"})
 factor_data["Date"] = pd.to_datetime(factor_data["Date"], format='%Y%m')
+for col in factor_data.columns:
+    if col != 'Date':  
+        factor_data[col] = factor_data[col] / 100
+
+
+
 #print(index_data.head(3))
 #print(factor_data.head(3))
 
