@@ -1,9 +1,5 @@
-from operator import index
-from turtle import down
 import pandas as pd
 import statsmodels.api as sm
-import matplotlib.pyplot as plt
-import numpy as np
 
 
 #import and clean the data
