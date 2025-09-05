@@ -42,7 +42,7 @@ for i, col in enumerate(excess_columns):
     X = sm.add_constant(capm["Mkt-RF"])
     y = capm[col]
     model = sm.OLS(y, X).fit()
-    print(model.summary())
+    #print(model.summary())
 
 # plotting
 funds = excess_columns
@@ -78,3 +78,36 @@ fig.suptitle("CAPM Scatter Plots: Hedge Funds vs Market", fontsize=16)
 plt.tight_layout(rect=[0,0,1,0.97])
 plt.show()
 
+
+
+
+def run_capm_summary(raw_df: pd.DataFrame, hfri_cols: list[str], tag: str):
+    """
+    回傳 CAPM 統計匯總表 (alpha, beta, t-stats, R²)
+    
+    raw_df: DataFrame，需包含 ['RF','Mkt-RF'] 以及 hfri_cols
+    hfri_cols: 要跑迴歸的 hedge fund 欄位名稱
+    tag: 'up' 或 'down'，會加在欄位名稱前面
+    
+    回傳: results_df (DataFrame)
+    """
+    results = []
+    X = sm.add_constant(raw_df['Mkt-RF'])
+    
+    for col in hfri_cols:
+        y = raw_df[col] - raw_df['RF']  # excess return
+        model = sm.OLS(y, X).fit()
+        
+        results.append({
+            'series': f"{tag}_{col}",
+            'alpha': model.params['const'],
+            'beta': model.params['Mkt-RF'],
+            't_alpha': model.tvalues['const'],
+            't_beta': model.tvalues['Mkt-RF'],
+            'R2': model.rsquared
+        })
+    
+    return pd.DataFrame(results)
+
+all_results  = run_capm_summary(raw_data, hfri_columns, tag="all")
+print(all_results.to_string())
