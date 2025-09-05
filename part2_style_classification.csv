@@ -1,0 +1,5 @@
+Fund,Classification,Evidence
+One,"Market-neutral/Alternative, Non-zero alpha (statistically significant)",Low beta (0.05) and low R² 0.03; t(alpha)=2.37
+Two,"Equity-like, Small-cap tilt, Value tilt",High market beta (1.04) and R² 0.97; Positive SMB (0.67); Positive HML (0.21)
+Three,"Equity-like, Value tilt",High market beta (0.94) and R² 0.95; Positive HML (0.30)
+Four,"Equity-like, Growth tilt",High market beta (1.10) and R² 0.70; Negative HML (-0.23)
