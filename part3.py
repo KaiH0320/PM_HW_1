@@ -37,34 +37,44 @@ cr_df    = cr.set_index("Date")             # 月 t 用來排序的 11M 累積�
 countries = [c for c in world_df.columns]     # 20 個國家欄位
 
 records = []
-for dt, row in cr_df.iterrows():
-    # 1) 取排序分數（把欄名還原成國家名）
-    scores = row.copy()
-    scores.index = [c.replace("_cumulative", "") for c in scores.index]
-    scores = scores.loc[countries]                 # 僅保留 20 國
+# 使用 t-1 的排序分數在 t 月建倉
+score_cols = [c for c in cr_df.columns if c.endswith("_cumulative")]
+lagged_scores = cr_df[score_cols].shift(1)
 
-    # 2) 依分數排序，取前4 / 後4 / 中間12
-    winners = scores.nlargest(4).index.tolist()
-    losers  = scores.nsmallest(4).index.tolist()
-    middle  = [c for c in countries if c not in winners + losers]  # 剩下 12 國
+for dt in lagged_scores.index:
+    prev = lagged_scores.loc[dt].dropna()
+    if prev.empty:
+        continue
 
-    # 3) 建立 long-only 權重
+    # 還原成國家名，並僅保留 20 國
+    prev.index = [c.replace("_cumulative", "") for c in prev.index]
+    prev = prev.loc[[c for c in countries if c in prev.index]]
+    if prev.empty:
+        continue
+
+    winners = prev.nlargest(4).index.tolist()
+    losers  = prev.nsmallest(4).index.tolist()
+    middle  = [c for c in countries if c not in winners + losers]
+
+    # 建立權重（遇缺值將於下步再正規化）
     w = pd.Series(0.0, index=countries, name="weight")
-    w_w = 0.50 / len(winners)     # 0.125
-    w_m = 0.50 / len(middle)      # ~0.0416667
-    w.loc[winners] = w_w
-    w.loc[middle]  = w_m
-    # losers 保持 0
-    # 若有個別國家該月缺值，可選擇 re-normalize 權重：
-    ret_t = world_df.loc[dt, countries]
-    valid = ret_t.notna() & w.ne(0)
-    if valid.sum() != (len(winners) + len(middle)):
-        # 重新按現存成員把權重歸一（可保留或移除這段，看你資料缺值情況）
-        w.loc[valid] = w.loc[valid] / w.loc[valid].sum()
-        w.loc[~valid] = 0.0
+    if len(winners) == 0 or len(middle) == 0:
+        continue
+    w.loc[winners] = 0.50 / len(winners)
+    w.loc[middle]  = 0.50 / len(middle)
 
-    # 4) 算當月投組報酬（long-only momentum tilt）
-    port_ret = (w * ret_t).sum()
+    # 用 t 月報酬計算投組報酬；若有缺值，對非零權重重新正規化
+    if dt not in world_df.index:
+        continue
+    ret_t = world_df.loc[dt, countries].astype(float)
+    mask = ret_t.notna() & w.ne(0)
+    if mask.any():
+        w_adj = w.where(mask, 0.0)
+        if w_adj.sum() != 0:
+            w_adj = w_adj / w_adj.sum()
+        port_ret = (w_adj * ret_t).sum()
+    else:
+        port_ret = np.nan
 
     records.append({
         "Date": dt,
@@ -96,15 +106,32 @@ df = (
 # === 2) 績效指標（年化） ===
 port   = df["LongOnly_ret"]           # 月報酬（小數）
 excess = port - df["RF"]              # 月超額報酬
+# here we car about the expect value, not as a investoer care about the "real return" 
+AF = 12  # 月資料 -> 年化因子
 
-ann_ret    = (1 + port.mean())**12 - 1
-ann_vol    = port.std(ddof=1) * np.sqrt(12)
-ann_sharpe = (excess.mean() / excess.std(ddof=1)) * np.sqrt(12)
+# 1. 年化報酬
+# (a) 算術年化（學術檢定用，和 t-test 搭配）
+ann_ret_arith = port.mean() * AF
 
-print(f"\n=== Long-Only Momentum Performance ===")
-print(f"Annualized return : {ann_ret:.2%}")
-print(f"Annualized vol    : {ann_vol:.2%}")
-print(f"Annualized Sharpe : {ann_sharpe:.2f}")
+# (b) 幾何年化（投資人角度，對數法更嚴謹）
+ann_ret_geo = np.exp(AF * np.log1p(port).mean()) - 1
+
+
+# 2. 年化波動
+ann_vol = port.std(ddof=1) * np.sqrt(AF)
+
+# 3. 年化 Sharpe ratio
+mean_excess_ann = excess.mean() * AF
+vol_excess_ann  = excess.std(ddof=1) * np.sqrt(AF)
+ann_sharpe = mean_excess_ann / vol_excess_ann
+
+print("\n=== Long-Only Momentum Performance ===")
+print(f"Annualized return (Arithmetic)  : {ann_ret_arith:.2%}")
+print(f"Annualized return (Geometric)   : {ann_ret_geo:.2%}")
+print(f"Annualized vol                  : {ann_vol:.2%}")
+print(f"Annualized Sharpe (=(12*mean(R-RF))/(sqrt(12)*sd(R-RF))) : {ann_sharpe:.2f}")
+print(f"Mean excess (annualized)        : {mean_excess_ann:.2%}")
+print(f"Vol excess  (annualized)        : {vol_excess_ann:.2%}")
 
 # === 3) 累積報酬圖 ===
 cum = (1 + port).cumprod() - 1
