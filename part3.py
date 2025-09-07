@@ -154,13 +154,13 @@ print("\n=== OLS (classical SE) ===")
 print(ols.summary())
 
 
-# 精簡輸出（用 NW 版本）
+# 精簡輸出（OLS）
 tidy = pd.DataFrame({
     "coef": ols.params.round(4),
     "t":    ols.tvalues.round(2),
     "p":    ols.pvalues.round(4)
 })
-print("\nTidy four-factor regression (HAC SE):\n", tidy)
+print("\nTidy four-factor regression (OLS):\n", tidy)
 print(f"\nR^2: {ols.rsquared:.3f} | Adj R^2: {ols.rsquared_adj:.3f}")
 
 # === 5) 一句話結論模板（看 alpha 與 MOM） ===

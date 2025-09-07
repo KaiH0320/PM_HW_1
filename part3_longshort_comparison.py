@@ -8,7 +8,7 @@ Country Momentum Long–Short (12–2) Portfolio
 - Portfolio: +50% equally across top 4 "winners", -50% equally across bottom 4 "losers"
 - Self-financing (net = 0, gross = 100%)
 - Diagnostics: annualized return/vol, Sharpe (IR), hit ratio, max drawdown, turnover
-- Factor model: Carhart 4-factor with Newey–West (HAC) standard errors
+- Factor model: Carhart 4-factor using classical OLS
 """
 
 import pandas as pd
@@ -46,9 +46,9 @@ def max_drawdown(nav: pd.Series) -> float:
 def tidy_summary(res) -> pd.DataFrame:
     return pd.DataFrame({
         "coef": res.params,
-        "t_NW": res.tvalues,
-        "p_NW": res.pvalues
-    }).round({"coef":4, "t_NW":2, "p_NW":4})
+        "t": res.tvalues,
+        "p": res.pvalues
+    }).round({"coef":4, "t":2, "p":4})
 
 # =======================================
 # === 1) Load & prepare country data  ===
@@ -184,9 +184,9 @@ ir_ls_net      = sharpe_ir(ls_net)
 print(f"Net annualized return (toy costs) : {ann_ret_ls_net:.2%}")
 print(f"Net annualized Sharpe (toy costs) : {ir_ls_net:.2f}")
 
-# =========================================
-# === 6) Carhart (Newey–West HAC) OLS   ===
-# =========================================
+# ================================
+# === 6) Carhart OLS (classical) ===
+# ================================
 factors = pd.read_excel(FACTOR_PATH).rename(columns={"Unnamed: 0": "Date"})
 factors["Date"] = pd.to_datetime(factors["Date"], format="%Y%m")
 
@@ -204,21 +204,21 @@ reg_df = (
 y = reg_df["LS_ret"]  # self-financing portfolio -> use raw LS return
 X = sm.add_constant(reg_df[["Mkt-RF","SMB","HML","Mom"]])
 
-ols_hac = sm.OLS(y, X).fit(cov_type="HAC", cov_kwds={"maxlags": 12})
-print("\n=== Carhart OLS with Newey–West (HAC, 12 lags) ===")
-print(ols_hac.summary())
+ols = sm.OLS(y, X).fit()
+print("\n=== Carhart OLS (classical) ===")
+print(ols.summary())
 
-tidy = tidy_summary(ols_hac)
-print("\nTidy (HAC):")
+tidy = tidy_summary(ols)
+print("\nTidy (OLS):")
 print(tidy)
-print(f"\nR^2: {ols_hac.rsquared:.3f} | Adj R^2: {ols_hac.rsquared_adj:.3f}")
+print(f"\nR^2: {ols.rsquared:.3f} | Adj R^2: {ols.rsquared_adj:.3f}")
 
-alpha_m  = float(ols_hac.params["const"])
-alpha_t  = float(ols_hac.tvalues["const"])
-alpha_p  = float(ols_hac.pvalues["const"])
-mom_b    = float(ols_hac.params["Mom"])
-mom_t    = float(ols_hac.tvalues["Mom"])
-mom_p    = float(ols_hac.pvalues["Mom"])
+alpha_m  = float(ols.params["const"])
+alpha_t  = float(ols.tvalues["const"])
+alpha_p  = float(ols.pvalues["const"])
+mom_b    = float(ols.params["Mom"])
+mom_t    = float(ols.tvalues["Mom"])
+mom_p    = float(ols.pvalues["Mom"])
 
 print("\nOne-liner takeaway (LS):")
 print(f"- Alpha (monthly): {alpha_m:.4%}, t={alpha_t:.2f}, p={alpha_p:.4f}")
