@@ -42,7 +42,7 @@ for i, col in enumerate(excess_columns):
     X = sm.add_constant(ffm[["Mkt-RF","SMB","HML","Mom"]])
     y = ffm[col]
     model = sm.OLS(y, X).fit()
-    print(model.summary())
+    #print(model.summary())
 
 # plotting
 funds = excess_columns
@@ -83,3 +83,37 @@ fig.suptitle("FFM Model Fit: Actual vs Predicted Excess Returns", fontsize=16)
 plt.tight_layout(rect=[0,0,1,0.97])
 plt.show()
 
+
+def run_ff4_summary(raw_df: pd.DataFrame, series_cols: list[str]) -> pd.DataFrame:
+    """
+    Build FF4 (const + Mkt-RF + SMB + HML + Mom) regressions for given series.
+    y = series - RF; X = [const, Mkt-RF, SMB, HML, Mom]
+    Return a DataFrame with alpha, betas, t-stats, R², AdjR², N.
+    """
+    results = []
+    X = sm.add_constant(raw_df[["Mkt-RF", "SMB", "HML", "Mom"]])
+    for col in series_cols:
+        y = raw_df[col] - raw_df["RF"]
+        model = sm.OLS(y, X, missing="drop").fit()
+        results.append({
+            "series": col,
+            "alpha": model.params.get("const", float("nan")),
+            "beta_mkt": model.params.get("Mkt-RF", float("nan")),
+            "beta_smb": model.params.get("SMB", float("nan")),
+            "beta_hml": model.params.get("HML", float("nan")),
+            "beta_mom": model.params.get("Mom", float("nan")),
+            "t_alpha": model.tvalues.get("const", float("nan")),
+            "t_mkt": model.tvalues.get("Mkt-RF", float("nan")),
+            "t_smb": model.tvalues.get("SMB", float("nan")),
+            "t_hml": model.tvalues.get("HML", float("nan")),
+            "t_mom": model.tvalues.get("Mom", float("nan")),
+            "R2": model.rsquared,
+            "AdjR2": model.rsquared_adj,
+            "N": int(model.nobs)
+        })
+    return pd.DataFrame(results)
+
+
+# Generate and print FF4 summary table, also save to CSV
+ff4_results = run_ff4_summary(raw_data, hfri_columns)
+print(ff4_results.round(4).to_string())
