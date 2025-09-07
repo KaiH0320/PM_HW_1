@@ -235,15 +235,6 @@ plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
 
-# Drawdown path
-dd = cum_nav / cum_nav.cummax() - 1.0
-plt.figure(figsize=(9,3.5))
-plt.plot(dd.index, dd.values)
-plt.title("Drawdown – Momentum Long–Short")
-plt.ylabel("Drawdown")
-plt.grid(alpha=0.3)
-plt.tight_layout()
-plt.show()
 
 # ===========================
 # === 8) Save key outputs ===
