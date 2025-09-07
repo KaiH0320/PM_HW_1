@@ -1,0 +1,397 @@
+Date,Winners,Losers,LS_ret,NAV
+1992-01-01,"HongKong, Australia, Singapore, New Zealand","Norway, Finland, Austria, Italy",-0.014875000000000001,0.985125
+1992-02-01,"HongKong, Australia, Singapore, Ireland","Finland, Austria, Norway, Italy",0.011800000000000001,0.9967494750000001
+1992-03-01,"HongKong, Australia, Singapore, Netherlands","Austria, Finland, Norway, Japan",0.018049999999999997,1.01474080302375
+1992-04-01,"HongKong, France, Germany, Netherlands","Finland, Norway, Japan, Austria",0.028349999999999997,1.0435087047894733
+1992-05-01,"HongKong, France, Netherlands, Germany","Finland, Japan, Austria, New Zealand",0.005962499999999999,1.0497306254417806
+1992-06-01,"HongKong, France, UK, Netherlands","Japan, Finland, Austria, New Zealand",0.014474999999999998,1.0649254762450504
+1992-07-01,"HongKong, France, UK, Netherlands","Japan, Finland, Austria, Italy",0.017575,1.083641541490057
+1992-08-01,"HongKong, France, Netherlands, Belgium","Japan, Finland, Norway, Italy",0.0028499999999999984,1.0867299198833038
+1992-09-01,"HongKong, Belgium, Netherlands, Switzerland","Finland, Japan, Austria, Norway",0.0208,1.1093339022168764
+1992-10-01,"HongKong, Netherlands, Switzerland, Belgium","Finland, Norway, Austria, Japan",-0.017637499999999993,1.0897680255165263
+1992-11-01,"HongKong, Switzerland, Netherlands, Belgium","Finland, Italy, Japan, Norway",-0.0243125,1.0632730403961559
+1992-12-01,"HongKong, Switzerland, Belgium, Netherlands","Denmark, Japan, Sweden, Australia",-0.004537499999999999,1.0584484389753583
+1993-01-01,"HongKong, Switzerland, Singapore, Netherlands","Denmark, Italy, Japan, Australia",-0.014400000000000001,1.0432067814541133
+1993-02-01,"HongKong, Switzerland, Netherlands, New Zealand","Italy, Denmark, Norway, Finland",0.0290625,1.0735249785401235
+1993-03-01,"HongKong, Switzerland, Singapore, Netherlands","Austria, Finland, Italy, Sweden",0.0191625,1.0940964009413987
+1993-04-01,"HongKong, Switzerland, Singapore, New Zealand","Sweden, Norway, Austria, Italy",-0.014375000000000002,1.0783687651778662
+1993-05-01,"Japan, HongKong, Switzerland, Belgium","Italy, Sweden, Norway, Austria",0.009599999999999997,1.0887211053235737
+1993-06-01,"Japan, Switzerland, Singapore, HongKong","Sweden, Austria, Spain, Denmark",0.0030499999999999985,1.0920417046948105
+1993-07-01,"Japan, HongKong, Finland, Switzerland","Austria, Spain, Germany, Norway",-0.000837500000000001,1.0911271197671286
+1993-08-01,"Japan, HongKong, Finland, Switzerland","Norway, Sweden, Austria, Germany",-0.011237500000000003,1.0788655787587456
+1993-09-01,"Japan, Finland, New Zealand, HongKong","Spain, Germany, Denmark, UK",-0.008025000000000001,1.0702076824892066
+1993-10-01,"Finland, New Zealand, Japan, Italy","Belgium, Austria, Denmark, UK",0.0015000000000000022,1.0718129940129404
+1993-11-01,"New Zealand, Japan, Finland, Singapore","Belgium, Austria, Canada, UK",-0.03288749999999999,1.0365637441723399
+1993-12-01,"HongKong, New Zealand, Finland, Australia","Belgium, UK, Italy, France",0.029162499999999994,1.0667925343617657
+1994-01-01,"HongKong, Finland, New Zealand, Singapore","Italy, UK, Spain, France",-0.005950000000000006,1.0604451187823132
+1994-02-01,"HongKong, New Zealand, Singapore, Finland","Italy, Spain, Denmark, Belgium",-0.014325000000000001,1.0452542424557565
+1994-03-01,"Finland, HongKong, New Zealand, Switzerland","France, Germany, Italy, Belgium",-0.05061249999999999,0.9923513121094646
+1994-04-01,"Finland, HongKong, New Zealand, Singapore","France, Belgium, Germany, UK",0.003937499999999998,0.9962586954008955
+1994-05-01,"Finland, New Zealand, Switzerland, HongKong","Japan, UK, France, Canada",0.0185875,1.0147766539016596
+1994-06-01,"Finland, New Zealand, Italy, Singapore","Japan, Canada, UK, France",-0.01465,0.9999101759220003
+1994-07-01,"Finland, New Zealand, Singapore, HongKong","UK, Japan, Canada, France",0.013000000000000005,1.0129090082089862
+1994-08-01,"Finland, Singapore, HongKong, Switzerland","Canada, UK, France, Japan",0.010749999999999997,1.0237977800472329
+1994-09-01,"Finland, HongKong, Singapore, Norway","Japan, UK, Canada, Austria",0.004825,1.0287376043359608
+1994-10-01,"Finland, HongKong, New Zealand, Norway","Japan, France, Denmark, Spain",0.015625000000000003,1.0448116294037102
+1994-11-01,"Finland, Italy, Singapore, Ireland","France, Austria, Spain, UK",-0.0196875,1.0242419004498247
+1994-12-01,"Finland, Sweden, Italy, Japan","Austria, Canada, France, HongKong",0.0072125,1.0316292451568192
+1995-01-01,"Finland, Japan, Sweden, Norway","HongKong, Austria, France, UK",0.0149125,1.0470134162752203
+1995-02-01,"Finland, Germany, Norway, Netherlands","HongKong, Spain, France, Austria",-0.014375,1.031962598416264
+1995-03-01,"Finland, Netherlands, Italy, Germany","HongKong, France, Austria, Spain",-0.025237500000000003,1.0059184423387335
+1995-04-01,"Finland, New Zealand, Netherlands, Ireland","Italy, Japan, HongKong, France",0.0242625,1.0303245385459772
+1995-05-01,"Netherlands, New Zealand, Switzerland, Ireland","Italy, Spain, Japan, HongKong",-0.00595,1.0241941075416285
+1995-06-01,"Finland, Netherlands, New Zealand, Ireland","Italy, HongKong, Japan, Spain",0.02995,1.0548687210625003
+1995-07-01,"Finland, New Zealand, Netherlands, Ireland","Japan, Italy, Austria, Australia",-0.003912499999999996,1.0507415471913433
+1995-08-01,"Finland, Switzerland, Ireland, Sweden","Italy, Japan, HongKong, Australia",0.000312499999999999,1.0510699039248406
+1995-09-01,"Finland, Sweden, Switzerland, Netherlands","Japan, Italy, HongKong, Singapore",0.0329875,1.085742072380561
+1995-10-01,"Finland, Sweden, Switzerland, Netherlands","Italy, Japan, HongKong, Singapore",-0.00575,1.0794990554643729
+1995-11-01,"Sweden, Finland, Switzerland, Ireland","Japan, Italy, Singapore, HongKong",0.0022000000000000006,1.0818739533863944
+1995-12-01,"Switzerland, Sweden, Finland, Ireland","Japan, Italy, Singapore, Austria",-0.0457125,1.0324187902922188
+1996-01-01,"Sweden, Switzerland, Ireland, Netherlands","Italy, Japan, Austria, Singapore",-0.028374999999999997,1.0031239071176772
+1996-02-01,"Switzerland, HongKong, Sweden, Spain","Italy, Austria, Finland, Japan",0.009975,1.0131300680911761
+1996-03-01,"HongKong, Switzerland, Sweden, Spain","Finland, Italy, Austria, Norway",0.01595,1.0292894926772302
+1996-04-01,"Sweden, Spain, HongKong, Australia","Japan, Austria, Finland, France",-0.0014875000000000005,1.027758424556873
+1996-05-01,"Sweden, HongKong, Switzerland, Ireland","Finland, Italy, Japan, New Zealand",0.004025000000000001,1.0318951522157143
+1996-06-01,"Sweden, Australia, Ireland, Switzerland","Finland, Austria, Denmark, New Zealand",0.007324999999999998,1.0394537842056943
+1996-07-01,"Sweden, Australia, HongKong, Netherlands","Finland, New Zealand, Austria, Germany",-0.0201625,1.018495797281647
+1996-08-01,"Sweden, Ireland, HongKong, Switzerland","Finland, Austria, Japan, New Zealand",0.0273125,1.046313463744902
+1996-09-01,"Sweden, Netherlands, Switzerland, HongKong","Finland, Japan, Italy, Austria",0.007837499999999997,1.0545139455170027
+1996-10-01,"Ireland, Spain, HongKong, Netherlands","Finland, Japan, New Zealand, Austria",0.012837500000000002,1.0680512682925773
+1996-11-01,"Ireland, HongKong, Sweden, Spain","Finland, Austria, Japan, New Zealand",0.014937500000000001,1.0840052841126977
+1996-12-01,"HongKong, Sweden, Ireland, Canada","Japan, Singapore, Finland, Austria",0.0008875,1.0849673388023477
+1997-01-01,"Sweden, HongKong, Finland, Canada","Japan, Singapore, Switzerland, Austria",0.0223125,1.109175672549375
+1997-02-01,"Finland, Sweden, Spain, Norway","Japan, Singapore, Austria, Switzerland",-0.011025,1.0969470107595183
+1997-03-01,"Finland, Norway, Sweden, Ireland","Japan, Austria, Singapore, Switzerland",0.012200000000000003,1.1103297642907843
+1997-04-01,"Finland, Sweden, Ireland, Norway","Japan, Austria, Singapore, Switzerland",-0.015100000000000002,1.0935637848499935
+1997-05-01,"Finland, Sweden, Germany, Denmark","Japan, Singapore, Austria, New Zealand",-0.009725000000000003,1.0829288770423273
+1997-06-01,"Finland, Spain, UK, Denmark","Japan, Singapore, Austria, Italy",0.004887500000000003,1.0882216919288716
+1997-07-01,"Finland, Spain, UK, Canada","Japan, Singapore, Austria, Italy",0.008874999999999997,1.0978796594447404
+1997-08-01,"Spain, Finland, Sweden, Netherlands","Japan, Singapore, Austria, New Zealand",0.014887499999999998,1.1142243428747238
+1997-09-01,"Netherlands, Finland, Sweden, Canada","Singapore, Japan, Austria, Australia",0.0344,1.1525536602696143
+1997-10-01,"Spain, Finland, Canada, Norway","Singapore, Japan, Austria, New Zealand",0.020000000000000004,1.1756047334750066
+1997-11-01,"Finland, Italy, Spain, Netherlands","Singapore, Japan, New Zealand, Austria",0.0141875,1.1922836256311833
+1997-12-01,"Finland, Switzerland, Denmark, Italy","Singapore, HongKong, Japan, New Zealand",0.0396375,1.2395427678421393
+1998-01-01,"Switzerland, Italy, Ireland, Denmark","Singapore, HongKong, Japan, New Zealand",0.05197499999999999,1.3039680032007346
+1998-02-01,"Switzerland, Denmark, Spain, Ireland","Singapore, HongKong, Japan, New Zealand",-0.009437499999999996,1.2916618051705278
+1998-03-01,"Italy, Switzerland, Spain, Denmark","Singapore, HongKong, New Zealand, Japan",0.0809,1.3961572452088233
+1998-04-01,"Italy, Spain, Ireland, Switzerland","Singapore, HongKong, New Zealand, Japan",0.027137500000000002,1.4340454624506778
+1998-05-01,"Italy, Spain, Ireland, Switzerland","Singapore, HongKong, New Zealand, Japan",0.062275,1.5233506436247939
+1998-06-01,"Italy, Finland, Ireland, Spain","HongKong, Singapore, Japan, New Zealand",0.03915,1.5829898213227045
+1998-07-01,"Italy, Finland, Spain, Belgium","HongKong, Singapore, Japan, New Zealand",0.03695,1.6414812952205784
+1998-08-01,"Italy, Spain, Belgium, Finland","HongKong, Singapore, New Zealand, Japan",-0.007487500000000005,1.6291907040226143
+1998-09-01,"Italy, Finland, Belgium, Spain","HongKong, Singapore, New Zealand, Japan",-0.0363125,1.5700307165827931
+1998-10-01,"Belgium, Italy, France, Finland","HongKong, Singapore, New Zealand, Norway",-0.06901249999999999,1.461678971754623
+1998-11-01,"Belgium, Italy, Finland, Spain","New Zealand, Singapore, Norway, HongKong",0.020725000000000007,1.4919722684442378
+1998-12-01,"Finland, Belgium, Italy, Spain","New Zealand, Singapore, Norway, Japan",0.0486375,1.5645380696506943
+1999-01-01,"Finland, Belgium, Spain, Italy","Norway, New Zealand, Singapore, HongKong",-0.0168625,1.5381560464512094
+1999-02-01,"Finland, Belgium, Spain, Italy","Norway, New Zealand, Japan, Canada",0.0039625,1.5442509897852725
+1999-03-01,"Finland, Belgium, France, Italy","Norway, HongKong, Singapore, New Zealand",-0.020525,1.5125552382199299
+1999-04-01,"Finland, Belgium, Ireland, France","Norway, HongKong, Denmark, Singapore",-0.07946249999999999,1.3923638176028788
+1999-05-01,"Finland, Japan, Australia, Belgium","Norway, Austria, Denmark, New Zealand",0.012137499999999999,1.4092636334390336
+1999-06-01,"Singapore, Finland, HongKong, Australia","Austria, Norway, Denmark, Germany",0.041112499999999996,1.467201984568796
+1999-07-01,"Singapore, HongKong, Finland, Japan","Austria, Norway, Germany, Denmark",0.0008874999999999994,1.4685041263301006
+1999-08-01,"Singapore, HongKong, Finland, Japan","Austria, Norway, Denmark, Switzerland",-0.0033749999999999995,1.4635479249037364
+1999-09-01,"Singapore, HongKong, Finland, Japan","Austria, Belgium, Denmark, Germany",0.016524999999999998,1.4877330543627705
+1999-10-01,"Singapore, Finland, Japan, HongKong","Belgium, Austria, Denmark, Ireland",0.045825000000000005,1.5559084215789445
+1999-11-01,"Finland, Singapore, Japan, Sweden","Austria, Belgium, Switzerland, Ireland",0.055337500000000005,1.6420085038580694
+1999-12-01,"Finland, Japan, Singapore, Sweden","Ireland, Belgium, Spain, Austria",0.05474999999999999,1.7319084694442988
+2000-01-01,"Finland, Japan, Singapore, Sweden","Belgium, Ireland, Austria, Italy",0.026412499999999995,1.7776525018934963
+2000-02-01,"Finland, Singapore, Japan, HongKong","Ireland, Belgium, Switzerland, Austria",0.010175,1.7957401161002626
+2000-03-01,"Finland, Japan, Sweden, Singapore","Belgium, Ireland, Austria, Switzerland",-0.016662499999999997,1.765818596415742
+2000-04-01,"Finland, Sweden, Japan, Singapore","Belgium, Austria, Ireland, New Zealand",0.016475000000000004,1.7949104577916914
+2000-05-01,"Finland, Sweden, Japan, Canada","Austria, Belgium, New Zealand, Australia",-0.0216,1.756140391903391
+2000-06-01,"Finland, Sweden, Japan, Canada","Belgium, Austria, Ireland, New Zealand",-0.010637499999999998,1.737459448484519
+2000-07-01,"Finland, Sweden, Canada, France","New Zealand, Austria, Belgium, Singapore",-0.015325000000000002,1.7108328824364936
+2000-08-01,"Finland, Sweden, Canada, France","New Zealand, Ireland, Austria, Belgium",0.013125,1.7332875640184726
+2000-09-01,"Finland, Canada, Sweden, France","Ireland, Austria, New Zealand, Belgium",-0.0324375,1.6770640486606234
+2000-10-01,"Canada, Finland, Sweden, HongKong","Ireland, New Zealand, Austria, Belgium",0.002987499999999999,1.682074277505997
+2000-11-01,"Canada, Finland, Denmark, Italy","New Zealand, Austria, Belgium, Japan",-0.00855,1.6676925424333207
+2000-12-01,"Canada, Italy, Denmark, Norway","New Zealand, Japan, Spain, Austria",0.0036249999999999998,1.6737379278996414
+2001-01-01,"Canada, Denmark, Switzerland, Italy","New Zealand, Spain, Japan, Sweden",-0.010950000000000001,1.6554104975891404
+2001-02-01,"Switzerland, Denmark, Ireland, Canada","Japan, New Zealand, Sweden, Spain",0.0058875,1.6651567268936964
+2001-03-01,"Denmark, Switzerland, Norway, Ireland","Finland, Sweden, Japan, Spain",-0.009862500000000003,1.6487341186747073
+2001-04-01,"Austria, Norway, Belgium, Switzerland","Finland, Sweden, Japan, Spain",-0.053762500000000005,1.5600940506194583
+2001-05-01,"Austria, Norway, Denmark, Ireland","Finland, Sweden, Japan, Singapore",0.017287499999999997,1.587064176519542
+2001-06-01,"Ireland, HongKong, Norway, Austria","Sweden, Finland, Japan, Germany",0.0335875,1.640369694548392
+2001-07-01,"Ireland, HongKong, Norway, Austria","Sweden, Finland, Japan, Singapore",0.019425,1.6722338758649946
+2001-08-01,"Ireland, Austria, Norway, Australia","Finland, Sweden, France, Italy",0.034612500000000004,1.7301140708933715
+2001-09-01,"Ireland, Austria, Belgium, New Zealand","Finland, Sweden, Japan, Singapore",-0.004862500000000002,1.7217013912236525
+2001-10-01,"Austria, Ireland, New Zealand, Belgium","Finland, Sweden, Japan, Canada",-0.0305625,1.6690818924543795
+2001-11-01,"Austria, Ireland, New Zealand, Belgium","Finland, Sweden, Singapore, Germany",-0.02275,1.6311102794010424
+2001-12-01,"Austria, Ireland, New Zealand, Australia","Finland, Sweden, Singapore, Japan",-0.004937500000000002,1.6230566723964996
+2002-01-01,"New Zealand, Austria, Australia, Ireland","Finland, Italy, Singapore, Sweden",0.002150000000000001,1.6265462442421523
+2002-02-01,"Austria, Ireland, Australia, New Zealand","Sweden, Japan, Italy, Germany",-0.012,1.6070276893112465
+2002-03-01,"New Zealand, Australia, Finland, Canada","Japan, Sweden, Italy, Germany",-0.0158875,1.5814960368973139
+2002-04-01,"Australia, New Zealand, Singapore, Austria","Japan, Italy, France, Germany",0.0019374999999999996,1.5845601854688023
+2002-05-01,"Australia, Singapore, Austria, New Zealand","Japan, Finland, Italy, France",0.023474999999999992,1.6217577358226822
+2002-06-01,"Austria, New Zealand, Belgium, Singapore","Finland, Japan, Sweden, Denmark",-0.006125,1.6118244696907682
+2002-07-01,"New Zealand, Austria, Australia, Belgium","Finland, Japan, Sweden, Germany",0.0188,1.6421267697209545
+2002-08-01,"New Zealand, Austria, Australia, Norway","Finland, Sweden, Germany, France",0.0035,1.647874213414978
+2002-09-01,"Austria, New Zealand, Australia, Norway","Germany, Sweden, Netherlands, Ireland",0.054862499999999995,1.7382807124484572
+2002-10-01,"New Zealand, Australia, Austria, Norway","Netherlands, Sweden, France, Japan",-0.0198875,1.7037106547796386
+2002-11-01,"New Zealand, Austria, Australia, Norway","Germany, Sweden, France, Finland",-0.0361625,1.64210021822617
+2002-12-01,"New Zealand, Austria, Singapore, Australia","Germany, Sweden, Finland, France",0.05171250000000001,1.7270173257611907
+2003-01-01,"New Zealand, Austria, Australia, Norway","Germany, Sweden, France, Netherlands",0.0223375,1.7655945752753812
+2003-02-01,"Austria, New Zealand, Norway, Australia","Germany, Singapore, Finland, Sweden",0.00047499999999999946,1.766433232698637
+2003-03-01,"New Zealand, Austria, Ireland, Australia","Germany, Finland, Singapore, Sweden",0.020112500000000002,1.8019606210912882
+2003-04-01,"New Zealand, Austria, Australia, Spain","Germany, Netherlands, Finland, Singapore",-0.024499999999999994,1.7578125858745517
+2003-05-01,"New Zealand, Austria, Australia, Ireland","Germany, Netherlands, Belgium, HongKong",-0.0106,1.7391797724642815
+2003-06-01,"Austria, New Zealand, Finland, Spain","Japan, Netherlands, Germany, HongKong",-0.0050375,1.7304186543604927
+2003-07-01,"Austria, New Zealand, Spain, Australia","Netherlands, Japan, Germany, HongKong",-0.030050000000000004,1.6784195737969598
+2003-08-01,"New Zealand, Austria, Spain, Australia","HongKong, Japan, Singapore, Netherlands",-0.0289125,1.6298922678695553
+2003-09-01,"Austria, New Zealand, Spain, Sweden","Japan, Netherlands, HongKong, UK",0.0009874999999999997,1.6315017864840764
+2003-10-01,"Sweden, Spain, Germany, Austria","Switzerland, Japan, UK, Canada",0.012162499999999996,1.6513449269621892
+2003-11-01,"Austria, Sweden, New Zealand, Denmark","Finland, Netherlands, UK, Switzerland",-0.0005000000000000009,1.650519254498708
+2003-12-01,"Austria, New Zealand, Denmark, Australia","Finland, Netherlands, Switzerland, UK",0.008975000000000004,1.6653326648078337
+2004-01-01,"Sweden, Germany, New Zealand, Austria","Netherlands, Canada, UK, Switzerland",0.011724999999999998,1.6848586903027056
+2004-02-01,"Germany, Sweden, Norway, Spain","Canada, Netherlands, Finland, HongKong",0.0019250000000000005,1.6881020432815383
+2004-03-01,"Germany, Norway, Belgium, Sweden","Canada, Italy, Japan, UK",-0.022162499999999998,1.6506894817473112
+2004-04-01,"Norway, Germany, Sweden, Belgium","Canada, Ireland, Japan, Switzerland",0.003275,1.6560954898000335
+2004-05-01,"Japan, Norway, Austria, HongKong","Canada, Italy, Ireland, Netherlands",-0.004399999999999999,1.6488086696449133
+2004-06-01,"Japan, Norway, Austria, Sweden","Finland, Italy, Canada, Netherlands",0.005124999999999999,1.6572588140768436
+2004-07-01,"Norway, Austria, Sweden, Japan","Finland, New Zealand, Canada, Italy",-0.0030999999999999995,1.6521213117532054
+2004-08-01,"Austria, Norway, Japan, Sweden","Finland, Canada, Netherlands, Singapore",0.00595,1.661951433558137
+2004-09-01,"Austria, Norway, Belgium, Sweden","Finland, Netherlands, HongKong, Canada",0.017474999999999997,1.6909940348595651
+2004-10-01,"Austria, Norway, Belgium, Sweden","Finland, Japan, Netherlands, Switzerland",0.0007750000000000036,1.6923045552365812
+2004-11-01,"Austria, Norway, Belgium, New Zealand","Finland, Japan, Netherlands, Germany",0.015087499999999995,1.717837200213713
+2004-12-01,"Austria, Norway, Belgium, Ireland","Finland, Switzerland, Netherlands, Germany",0.007499999999999999,1.730720979215316
+2005-01-01,"Austria, Norway, Belgium, Sweden","Netherlands, Germany, Switzerland, Japan",-0.0023499999999999992,1.72665378491416
+2005-02-01,"Austria, Norway, Belgium, Ireland","Finland, Canada, HongKong, Switzerland",0.0058374999999999955,1.7367331263835963
+2005-03-01,"Austria, Ireland, Belgium, Norway","Finland, HongKong, Canada, Switzerland",-0.007824999999999999,1.7231431896696447
+2005-04-01,"Austria, Norway, Belgium, Italy","Japan, Finland, HongKong, Canada",-0.0180375,1.6920619943859785
+2005-05-01,"Norway, Austria, Belgium, Denmark","Japan, Switzerland, HongKong, Germany",0.00575,1.7017913508536977
+2005-06-01,"Austria, Belgium, Norway, New Zealand","Japan, Switzerland, Germany, Netherlands",0.023675000000000005,1.7420812610851593
+2005-07-01,"Austria, Norway, Belgium, Australia","Japan, Germany, Netherlands, Switzerland",-0.0007125000000000005,1.740840028186636
+2005-08-01,"Norway, Austria, Finland, Australia","Japan, Switzerland, Germany, UK",0.0067125,1.7525254168758386
+2005-09-01,"Norway, Austria, Finland, Australia","Japan, UK, Switzerland, Ireland",0.0008749999999999993,1.754058876615605
+2005-10-01,"Austria, Norway, Denmark, Australia","Japan, Ireland, New Zealand, Singapore",-0.012875000000000001,1.731475368579179
+2005-11-01,"Norway, Austria, Denmark, Australia","Ireland, UK, Singapore, Italy",-0.002125,1.7277959834209482
+2005-12-01,"Austria, Norway, Canada, Japan","Ireland, Sweden, Italy, HongKong",0.0026125000000000002,1.7323098504276353
+2006-01-01,"Norway, Austria, Canada, Japan","Ireland, Italy, Sweden, Spain",0.012800000000000002,1.754483416513109
+2006-02-01,"Norway, Austria, Japan, Denmark","Italy, New Zealand, Ireland, Spain",-0.009049999999999999,1.7386053415936653
+2006-03-01,"Austria, Norway, Japan, Canada","New Zealand, Italy, Spain, UK",0.016037500000000003,1.7664882247594735
+2006-04-01,"Austria, Norway, Japan, Finland","New Zealand, Italy, UK, Belgium",0.0019874999999999997,1.769999120106183
+2006-05-01,"Norway, Austria, Finland, Japan","New Zealand, HongKong, UK, Italy",-0.0106125,1.7512150044440562
+2006-06-01,"Norway, Austria, Japan, Finland","New Zealand, HongKong, Italy, UK",0.00035000000000000005,1.7518279296956119
+2006-07-01,"Norway, Austria, Japan, Finland","New Zealand, HongKong, Canada, Singapore",-0.0018249999999999998,1.7486308437239175
+2006-08-01,"Austria, Japan, Norway, Finland","New Zealand, HongKong, Canada, Singapore",-0.009899999999999999,1.7313193983710506
+2006-09-01,"Netherlands, Finland, Norway, Spain","New Zealand, Denmark, HongKong, Canada",-0.008487499999999999,1.7166248249773763
+2006-10-01,"Ireland, Netherlands, Finland, Switzerland","New Zealand, Canada, HongKong, Japan",-0.004987500000000003,1.7080631586628017
+2006-11-01,"Ireland, Netherlands, Spain, Sweden","New Zealand, Japan, Canada, Norway",-0.0023625,1.7040278594504608
+2006-12-01,"Spain, Sweden, Ireland, Austria","New Zealand, Japan, HongKong, Canada",0.0114125,1.7234750773964391
+2007-01-01,"Spain, Singapore, Austria, Sweden","Japan, New Zealand, Canada, HongKong",0.0055125,1.7329757337605871
+2007-02-01,"Spain, Ireland, Sweden, Singapore","Japan, Canada, New Zealand, Switzerland",0.00013750000000000047,1.733214017923979
+2007-03-01,"Sweden, Singapore, Spain, Denmark","Japan, Canada, New Zealand, HongKong",0.019525,1.7670550216239447
+2007-04-01,"Singapore, Spain, Denmark, Ireland","Japan, Canada, Norway, Finland",0.0026875000000000007,1.771803981994559
+2007-05-01,"Singapore, Spain, Sweden, Denmark","Japan, Norway, Canada, HongKong",-0.0002499999999999998,1.7713610309990604
+2007-06-01,"Singapore, Sweden, Denmark, Austria","Japan, Canada, Norway, HongKong",-0.010387500000000001,1.7529610182895576
+2007-07-01,"Singapore, Sweden, Denmark, New Zealand","Japan, Canada, UK, HongKong",0.0011875000000000006,1.7550426594987762
+2007-08-01,"Singapore, New Zealand, Sweden, Denmark","Japan, Switzerland, Canada, HongKong",-0.018750000000000003,1.7221356096331741
+2007-09-01,"Singapore, Denmark, Sweden, New Zealand","Japan, Ireland, Switzerland, UK",0.03701249999999999,1.7858761538847219
+2007-10-01,"Singapore, Finland, Norway, Denmark","Japan, Ireland, Switzerland, Belgium",0.008962500000000002,1.8018820689139137
+2007-11-01,"Finland, Singapore, Norway, Australia","Japan, Ireland, Switzerland, UK",-0.010437500000000002,1.7830749248196247
+2007-12-01,"Finland, Australia, Singapore, HongKong","Ireland, Japan, Switzerland, Canada",0.0054625,1.7928149715964519
+2008-01-01,"Finland, HongKong, Australia, Singapore","Ireland, Japan, Belgium, Sweden",-0.022150000000000003,1.7531041199755903
+2008-02-01,"Finland, HongKong, Australia, Germany","Ireland, Japan, Sweden, Belgium",-0.002000000000000001,1.749597911735639
+2008-03-01,"Finland, HongKong, Germany, Australia","Ireland, Japan, Sweden, Belgium",-0.019100000000000002,1.7161805916214883
+2008-04-01,"Finland, HongKong, Norway, Australia","Ireland, Japan, Sweden, New Zealand",0.013474999999999997,1.7393061250935877
+2008-05-01,"Finland, HongKong, Spain, Norway","Ireland, New Zealand, Sweden, Italy",0.008974999999999999,1.7549163975663027
+2008-06-01,"Norway, HongKong, Australia, Germany","Ireland, New Zealand, Sweden, Japan",0.021437499999999998,1.7925374178391302
+2008-07-01,"Norway, HongKong, Australia, Denmark","Ireland, New Zealand, Belgium, Sweden",0.004224999999999996,1.8001108884295005
+2008-08-01,"Norway, Canada, Australia, Germany","Ireland, New Zealand, Sweden, Belgium",-0.003212500000000002,1.794328032200421
+2008-09-01,"Norway, Canada, Germany, Austria","Ireland, Belgium, Sweden, Italy",-0.009399999999999999,1.777461348697737
+2008-10-01,"Canada, Switzerland, Norway, Germany","Ireland, New Zealand, Sweden, Finland",0.0115,1.7979021542077611
+2008-11-01,"Canada, Switzerland, Japan, Germany","Ireland, Finland, Austria, Norway",0.02976250000000001,1.8514122170723695
+2008-12-01,"Canada, Switzerland, Japan, Germany","Ireland, Austria, Norway, Belgium",0.0077499999999999965,1.8657606617546802
+2009-01-01,"Japan, Canada, Switzerland, Spain","Ireland, Austria, Norway, Belgium",-0.019287499999999996,1.8297748029910867
+2009-02-01,"Japan, Switzerland, Canada, Spain","Ireland, Austria, Norway, Belgium",-0.005375,1.8199397634250096
+2009-03-01,"Japan, Canada, Switzerland, Spain","Ireland, Austria, Finland, Norway",-0.032425,1.7609282165959537
+2009-04-01,"Japan, Canada, Switzerland, HongKong","Ireland, Austria, Finland, Norway",-0.035925000000000006,1.697666870414744
+2009-05-01,"Canada, Japan, Switzerland, HongKong","Ireland, Austria, Norway, Finland",-0.012274999999999996,1.676828009580403
+2009-06-01,"Japan, Canada, Switzerland, HongKong","Ireland, Austria, Norway, Netherlands",0.011575,1.696237293791296
+2009-07-01,"HongKong, Japan, Singapore, Switzerland","Ireland, Austria, Norway, Denmark",0.0166375,1.7244584417667488
+2009-08-01,"HongKong, Japan, Canada, Singapore","Austria, Norway, Ireland, Denmark",-0.04796249999999999,1.641749103753511
+2009-09-01,"HongKong, Singapore, Japan, Sweden","Austria, Norway, Ireland, Finland",-0.021500000000000002,1.6064514980228106
+2009-10-01,"Singapore, HongKong, Sweden, Australia","Norway, Germany, Italy, Ireland",0.029249999999999998,1.6534402043399778
+2009-11-01,"Singapore, Australia, HongKong, Sweden","Japan, Switzerland, Germany, Canada",-0.00145,1.651042716043685
+2009-12-01,"Australia, Singapore, Sweden, HongKong","Japan, Canada, Finland, Germany",0.0036749999999999994,1.6571102980251455
+2010-01-01,"Australia, Norway, Singapore, Sweden","Japan, Germany, Switzerland, Finland",-0.0149,1.6324193545845709
+2010-02-01,"Australia, Singapore, Sweden, Norway","Japan, Canada, Switzerland, Germany",-0.0012375000000000008,1.6303992356332724
+2010-03-01,"Singapore, Australia, Sweden, Norway","Japan, Canada, Spain, Germany",0.008225,1.643809269346356
+2010-04-01,"Singapore, Sweden, Australia, HongKong","Japan, Spain, Germany, Italy",0.0265625,1.6874729530633685
+2010-05-01,"Australia, Singapore, Norway, Sweden","Spain, Italy, Japan, Germany",-0.009225,1.671906015071359
+2010-06-01,"Australia, Sweden, Singapore, Norway","Italy, Spain, Germany, Japan",0.0011500000000000006,1.673828706988691
+2010-07-01,"Sweden, Singapore, Australia, HongKong","Spain, Italy, Ireland, Japan",-0.007037499999999995,1.662049137463258
+2010-08-01,"Singapore, Sweden, Denmark, Canada","Spain, Italy, Ireland, Austria",0.0217625,1.698219481817302
+2010-09-01,"Singapore, HongKong, Sweden, Norway","Spain, Ireland, Italy, Austria",0.009512500000000004,1.714373794638089
+2010-10-01,"Singapore, HongKong, Sweden, Canada","Ireland, Spain, Italy, Austria",-0.014937499999999998,1.6887653360806825
+2010-11-01,"Singapore, Sweden, HongKong, Denmark","Spain, Ireland, Italy, Austria",0.04996249999999999,1.7731402741846134
+2010-12-01,"HongKong, Singapore, Sweden, Denmark","Spain, Ireland, Italy, Austria",-0.023825000000000002,1.730895207152165
+2011-01-01,"HongKong, Sweden, Singapore, Canada","Spain, Italy, Ireland, France",-0.03155,1.6762854633665143
+2011-02-01,"Sweden, HongKong, Singapore, Australia","Spain, Italy, Ireland, Belgium",-0.0206375,1.641691122116288
+2011-03-01,"Sweden, HongKong, Singapore, Germany","Ireland, Belgium, Spain, Italy",0.0052625000000000016,1.6503305216464248
+2011-04-01,"Sweden, Norway, Denmark, Germany","Ireland, Italy, Finland, Spain",-0.0037750000000000023,1.6441005239272095
+2011-05-01,"Sweden, Germany, Norway, HongKong","Ireland, Japan, New Zealand, Italy",-0.0030500000000000024,1.6390860173292314
+2011-06-01,"Sweden, Norway, Germany, Australia","Japan, Canada, Ireland, Singapore",-0.0122375,1.6190277021921649
+2011-07-01,"Norway, Sweden, Austria, Australia","Japan, Canada, Singapore, Ireland",-0.0125125,1.5987696180684854
+2011-08-01,"Germany, New Zealand, Norway, Austria","Japan, Belgium, Singapore, Italy",-0.001462500000000002,1.5964314175020602
+2011-09-01,"New Zealand, Norway, Germany, Sweden","Finland, Canada, Spain, Italy",-0.0096,1.5811056758940403
+2011-10-01,"New Zealand, Switzerland, Norway, Australia","Italy, Finland, Denmark, Spain",0.006287499999999998,1.5910468778312241
+2011-11-01,"New Zealand, Japan, Switzerland, Canada","Finland, Italy, Austria, Denmark",0.007012500000000002,1.6022040940620157
+2011-12-01,"New Zealand, Norway, Ireland, Spain","HongKong, Austria, Finland, Denmark",0.0097625,1.617845611530296
+2012-01-01,"New Zealand, Ireland, UK, Spain","Austria, Finland, Italy, HongKong",-0.013550000000000003,1.5959238034940606
+2012-02-01,"New Zealand, Ireland, Switzerland, UK","Finland, Austria, Italy, France",0.025400000000000002,1.63646026810281
+2012-03-01,"New Zealand, Ireland, Singapore, Australia","Austria, Italy, Finland, Spain",-0.009425000000000001,1.621036630075941
+2012-04-01,"Ireland, New Zealand, Japan, UK","Austria, Italy, Finland, Spain",0.02195,1.6566183841061077
+2012-05-01,"Ireland, New Zealand, Japan, Singapore","Spain, Italy, Austria, Finland",0.025787499999999998,1.699338430686244
+2012-06-01,"New Zealand, Ireland, Japan, UK","Spain, Italy, Austria, Finland",-0.024450000000000003,1.6577896060559654
+2012-07-01,"New Zealand, Japan, Canada, UK","Spain, Italy, Austria, Finland",0.0209,1.692437408822535
+2012-08-01,"Ireland, Belgium, New Zealand, UK","Spain, Austria, Italy, Finland",-0.0193125,1.6597522113646497
+2012-09-01,"Denmark, Sweden, Singapore, Belgium","Spain, Austria, Finland, Italy",-0.0033124999999999995,1.654254282164504
+2012-10-01,"Denmark, Norway, Sweden, Singapore","Spain, Japan, Austria, Finland",-0.017,1.6261319593677075
+2012-11-01,"Belgium, Denmark, New Zealand, Singapore","Spain, Finland, Italy, Austria",-0.0036499999999999996,1.6201965777160152
+2012-12-01,"New Zealand, Belgium, Singapore, HongKong","Spain, Finland, Ireland, Japan",-0.0076749999999999995,1.6077615689820448
+2013-01-01,"Belgium, New Zealand, Singapore, Denmark","Spain, Ireland, Japan, Canada",-0.00795,1.5949798645086375
+2013-02-01,"Belgium, New Zealand, Denmark, Netherlands","Ireland, Canada, Japan, Spain",-0.006387499999999998,1.5847919306240885
+2013-03-01,"New Zealand, Belgium, Netherlands, Switzerland","Ireland, Japan, Canada, Finland",0.0013625000000000006,1.5869512096295637
+2013-04-01,"New Zealand, Belgium, HongKong, Denmark","Ireland, Italy, Japan, Finland",-0.013537500000000004,1.5654678576292036
+2013-05-01,"New Zealand, Belgium, Switzerland, Sweden","Norway, Canada, Austria, Italy",-0.021075,1.5324756225296683
+2013-06-01,"Spain, New Zealand, Sweden, Switzerland","Canada, UK, Norway, Ireland",0.003949999999999999,1.5385289012386603
+2013-07-01,"Finland, Germany, Netherlands, Switzerland","Canada, Australia, Norway, UK",0.004712500000000003,1.5457792186857473
+2013-08-01,"Ireland, Spain, Switzerland, Finland","Australia, Singapore, Canada, Norway",0.015187499999999996,1.5692557405695369
+2013-09-01,"Ireland, France, Netherlands, Switzerland","Australia, Canada, Norway, Singapore",0.0149,1.5926376511040228
+2013-10-01,"Ireland, France, Netherlands, Finland","Singapore, Australia, Norway, Canada",0.002362499999999999,1.596400257554756
+2013-11-01,"Ireland, Finland, France, Japan","Canada, Australia, Singapore, Norway",0.0323375,1.6480238508834328
+2013-12-01,"Ireland, Spain, Finland, Italy","Singapore, Australia, Canada, HongKong",0.0007374999999999999,1.6492392684734594
+2014-01-01,"Ireland, Finland, Denmark, Spain","Singapore, Australia, Norway, Canada",0.0239625,1.6887591644442548
+2014-02-01,"Ireland, Finland, Spain, Germany","Australia, Singapore, Norway, Austria",0.015137499999999998,1.7143227562960297
+2014-03-01,"Ireland, Italy, Spain, Denmark","Australia, Singapore, HongKong, Norway",-0.004125000000000002,1.7072511749263084
+2014-04-01,"Ireland, Denmark, Italy, Spain","Singapore, Australia, HongKong, Japan",-0.0110625,1.6883647088036862
+2014-05-01,"Ireland, Denmark, Italy, Spain","Singapore, Australia, Japan, HongKong",-0.016925,1.659789136107184
+2014-06-01,"Ireland, Denmark, Spain, Italy","Japan, Singapore, HongKong, Australia",-0.0156875,1.6337511940345026
+2014-07-01,"Spain, Denmark, Ireland, Italy","Japan, Singapore, HongKong, Austria",-0.0157125,1.6080808783982354
+2014-08-01,"Denmark, Spain, Italy, Finland","Singapore, Japan, HongKong, Austria",0.00023749999999999943,1.6084627976068548
+2014-09-01,"Spain, Denmark, Finland, Italy","Austria, Netherlands, Japan, Sweden",0.004087499999999999,1.6150373892920729
+2014-10-01,"Denmark, Canada, Spain, Norway","Austria, Japan, Sweden, Germany",-0.014050000000000002,1.5923461139725192
+2014-11-01,"Denmark, Canada, Belgium, Spain","Austria, Australia, Germany, France",0.004549999999999997,1.5995912887910944
+2014-12-01,"Denmark, Canada, New Zealand, HongKong","Austria, Germany, Ireland, France",0.0063125,1.609688708801588
+2015-01-01,"Denmark, Canada, New Zealand, Belgium","Ireland, Norway, Austria, Germany",0.012550000000000002,1.629890302097048
+2015-02-01,"Belgium, Canada, New Zealand, Singapore","Ireland, Austria, Norway, Italy",-0.019075,1.598800144584547
+2015-03-01,"Canada, HongKong, Belgium, Japan","Ireland, Austria, Norway, Italy",0.0016249999999999988,1.6013981948194969
+2015-04-01,"Japan, Canada, Belgium, HongKong","Ireland, Norway, Austria, Italy",-0.0098625,1.5856044051230895
+2015-05-01,"Japan, HongKong, Canada, Denmark","Norway, Austria, Ireland, Italy",0.006512499999999999,1.5959306538114535
+2015-06-01,"Japan, HongKong, Denmark, Canada","Norway, Austria, Ireland, Italy",-0.0019000000000000002,1.5928983855692118
+2015-07-01,"HongKong, Japan, Netherlands, Denmark","Norway, Austria, Spain, Australia",0.0037874999999999988,1.5989314882045553
+2015-08-01,"Netherlands, Japan, Belgium, Denmark","Norway, Australia, New Zealand, Austria",0.011625,1.6175190667549333
+2015-09-01,"Denmark, Japan, Netherlands, Switzerland","Norway, Australia, New Zealand, Singapore",-0.007462500000000001,1.6054483307192746
+2015-10-01,"Denmark, Japan, Netherlands, Switzerland","Norway, Singapore, Australia, New Zealand",-0.0160625,1.5796608169070963
+2015-11-01,"Denmark, Netherlands, Belgium, Japan","Norway, Australia, Singapore, New Zealand",0.015199999999999998,1.6036716613240842
+2015-12-01,"Japan, Denmark, Ireland, Netherlands","Singapore, Australia, Norway, Spain",-0.0023000000000000017,1.599983216503039
+2016-01-01,"Denmark, Japan, Belgium, Italy","Singapore, Australia, New Zealand, Norway",0.0014624999999999985,1.6023231919571745
+2016-02-01,"Denmark, Japan, Belgium, Italy","Singapore, Norway, Canada, HongKong",-0.0266375,1.5596413079314153
+2016-03-01,"Denmark, Belgium, Netherlands, Japan","Singapore, Norway, Ireland, Australia",-0.0186375,1.5305734930548436
+2016-04-01,"Denmark, Belgium, Netherlands, New Zealand","Spain, Ireland, Singapore, Australia",0.0023499999999999997,1.5341703407635225
+2016-05-01,"New Zealand, Belgium, Denmark, Finland","Norway, HongKong, Spain, Singapore",0.015387500000000002,1.5577773868820215
+2016-06-01,"New Zealand, Denmark, Belgium, Finland","HongKong, Ireland, Italy, UK",0.032987499999999996,1.6091645684317921
+2016-07-01,"New Zealand, Denmark, Belgium, Finland","Ireland, HongKong, Singapore, Italy",0.0027874999999999983,1.6136501146662956
+2016-08-01,"New Zealand, Belgium, Canada, Australia","Ireland, Italy, Spain, UK",-0.007312499999999999,1.6018502982027985
+2016-09-01,"New Zealand, Australia, Finland, Belgium","Ireland, Italy, Spain, UK",0.013075,1.6227944908518
+2016-10-01,"New Zealand, Australia, Finland, Canada","Ireland, Italy, Spain, UK",-0.0061125,1.6128751595264683
+2016-11-01,"New Zealand, Australia, Finland, Canada","Ireland, Italy, Spain, UK",0.007874999999999998,1.6255765514077394
+2016-12-01,"New Zealand, Australia, Canada, Norway","Ireland, Italy, UK, Denmark",-0.022,1.589813867276769
+2017-01-01,"Canada, Norway, New Zealand, Australia","Italy, Denmark, Ireland, Belgium",0.0134,1.6111173730982777
+2017-02-01,"Norway, Canada, Australia, Austria","Denmark, Belgium, Ireland, UK",-0.0003625000000000002,1.6105333430505295
+2017-03-01,"Norway, Austria, Australia, New Zealand","Ireland, Denmark, Belgium, UK",-0.0131625,1.589334697922627
+2017-04-01,"Norway, Austria, Canada, Australia","Ireland, Denmark, Belgium, Italy",-0.0158125,1.5642033430117255
+2017-05-01,"Austria, Australia, HongKong, Canada","Ireland, Denmark, Belgium, UK",-0.0222625,1.529380266087927
+2017-06-01,"Austria, Finland, Spain, France","Belgium, Ireland, Denmark, UK",0.010025,1.5447123032554584
+2017-07-01,"Austria, Spain, France, Italy","Belgium, New Zealand, Canada, Singapore",0.0078000000000000005,1.556761059220851
+2017-08-01,"Austria, Italy, Spain, France","Belgium, Canada, New Zealand, Australia",0.00755,1.5685146052179684
+2017-09-01,"Austria, Italy, Spain, France","Canada, New Zealand, Belgium, Ireland",-0.00165,1.5659265561193587
+2017-10-01,"Austria, Italy, France, Denmark","New Zealand, Canada, Belgium, Australia",0.0020749999999999987,1.5691758537233065
+2017-11-01,"Austria, Italy, France, Denmark","Canada, Japan, Australia, New Zealand",-0.006,1.5597607986009667
+2017-12-01,"Austria, Italy, Denmark, France","Canada, New Zealand, Australia, HongKong",-0.012987499999999999,1.5395034052291365
+2018-01-01,"Austria, Italy, France, Denmark","Canada, Australia, New Zealand, Belgium",0.02175,1.57298760429287
+2018-02-01,"Austria, Italy, France, Netherlands","Canada, New Zealand, Australia, Sweden",-0.0060874999999999966,1.5634120422517372
+2018-03-01,"Austria, Italy, France, Germany","Canada, Australia, New Zealand, Belgium",0.005725,1.5723625761936284
+2018-04-01,"Austria, Norway, France, Finland","Canada, Australia, Spain, Switzerland",0.009612500000000001,1.5874769114572898
+2018-05-01,"Austria, Norway, Italy, Japan","Canada, Spain, Sweden, Australia",-0.014512500000000001,1.5644386527797658
+2018-06-01,"Norway, Italy, Austria, France","Switzerland, Belgium, Sweden, Spain",-0.008650000000000001,1.5509062584332207
+2018-07-01,"Norway, Japan, France, Finland","Spain, Switzerland, Belgium, Sweden",-0.012512500000000001,1.531500543874575
+2018-08-01,"Norway, Canada, France, Finland","Belgium, Spain, Sweden, Switzerland",0.008525000000000001,1.5445565860111057
+2018-09-01,"Norway, France, New Zealand, Canada","Belgium, Spain, Sweden, Singapore",0.008287499999999998,1.5573570987176728
+2018-10-01,"Norway, New Zealand, Finland, Japan","Belgium, Italy, Spain, Sweden",0.005437500000000008,1.5658252279419502
+2018-11-01,"Norway, New Zealand, Finland, Japan","Belgium, Spain, Germany, Italy",-0.006475,1.5556865095910262
+2018-12-01,"Norway, New Zealand, Finland, Switzerland","Belgium, Germany, Italy, HongKong",0.0004874999999999992,1.5564449067644517
+2019-01-01,"New Zealand, Norway, Canada, Switzerland","Belgium, Ireland, Germany, Italy",-0.0013875000000000024,1.554285339456316
+2019-02-01,"New Zealand, Canada, Norway, Finland","Belgium, Austria, Germany, Ireland",-0.00028750000000000043,1.5538384824212224
+2019-03-01,"New Zealand, Canada, Norway, Switzerland","Belgium, Ireland, Germany, Austria",0.009899999999999999,1.5692214833971925
+2019-04-01,"New Zealand, Canada, Australia, Switzerland","Belgium, Austria, Germany, Ireland",-0.018875,1.5396024278980704
+2019-05-01,"New Zealand, Switzerland, Canada, Australia","Germany, Austria, Ireland, Italy",0.02695,1.5810947133299236
+2019-06-01,"New Zealand, Switzerland, Canada, Netherlands","Ireland, Germany, Japan, Austria",0.006574999999999999,1.5914904110700678
+2019-07-01,"New Zealand, Switzerland, Australia, Canada","Ireland, Norway, Belgium, Austria",0.006112500000000001,1.6012183962077335
+2019-08-01,"New Zealand, Switzerland, Singapore, Australia","Ireland, Austria, Norway, Germany",-0.0014625000000000016,1.5988766143032798
+2019-09-01,"New Zealand, Switzerland, Singapore, Australia","Ireland, Norway, Germany, Austria",-0.008925,1.584606640520623
+2019-10-01,"New Zealand, Switzerland, Netherlands, Canada","Norway, Ireland, Austria, Germany",-0.017049999999999996,1.5575890972997464
+2019-11-01,"New Zealand, Netherlands, Belgium, Switzerland","Norway, Austria, Ireland, Germany",0.0011249999999999988,1.5593413850342086
+2019-12-01,"Italy, Switzerland, Netherlands, Australia","Norway, HongKong, Spain, Austria",-0.010112500000000002,1.5435725452780502
+2020-01-01,"Netherlands, Switzerland, Italy, France","HongKong, Norway, Spain, Singapore",0.0134875,1.564391479982488
+2020-02-01,"Switzerland, New Zealand, Netherlands, Denmark","HongKong, Norway, Spain, Austria",-3.749999999999934e-05,1.5643328153019886
+2020-03-01,"Switzerland, New Zealand, Denmark, Sweden","HongKong, Norway, Spain, Austria",0.04507499999999999,1.6348451169517257
+2020-04-01,"Switzerland, Sweden, Denmark, Netherlands","Norway, HongKong, Belgium, UK",0.002687499999999999,1.6392387632035335
+2020-05-01,"Switzerland, Denmark, Japan, Netherlands","Norway, Austria, Australia, Belgium",0.0053625,1.6480291810712122
+2020-06-01,"Denmark, Switzerland, Sweden, Japan","Norway, Austria, Spain, Belgium",-0.00011249999999999975,1.6478437777883417
+2020-07-01,"Denmark, Switzerland, Japan, Sweden","HongKong, Austria, Belgium, Norway",0.008275000000000001,1.6614796850495404
+2020-08-01,"Denmark, Sweden, Netherlands, Switzerland","Belgium, Austria, Norway, HongKong",-0.007949999999999999,1.6482709215533964
+2020-09-01,"Denmark, Sweden, Finland, Netherlands","Austria, Belgium, Spain, UK",0.0199625,1.6811745298249063
+2020-10-01,"Denmark, Sweden, Finland, Germany","Austria, Belgium, Spain, UK",-0.0028499999999999984,1.6763831824149054
+2020-11-01,"Denmark, Sweden, Finland, Netherlands","Austria, Spain, UK, Belgium",-0.0410625,1.6075466979869932
+2020-12-01,"Denmark, Sweden, Finland, New Zealand","Austria, Spain, UK, Belgium",0.0006375000000000026,1.60857150900696
+2021-01-01,"Denmark, Sweden, Finland, Netherlands","UK, Austria, Belgium, Spain",0.004212499999999999,1.6153476164886518
+2021-02-01,"Denmark, Sweden, Netherlands, Finland","UK, Belgium, Spain, Austria",-0.006362500000000002,1.6050699672787427
+2021-03-01,"Sweden, Denmark, Netherlands, New Zealand","Spain, UK, Italy, HongKong",-0.0023875000000000007,1.6012378627318649
+2021-04-01,"Australia, Sweden, Norway, Netherlands","Switzerland, Belgium, HongKong, Japan",0.012687499999999997,1.6215535681152753
+2021-05-01,"Sweden, Norway, Netherlands, Australia","Switzerland, HongKong, Belgium, Japan",-0.002000000000000001,1.6183104609790446
+2021-06-01,"Sweden, Norway, Netherlands, Austria","Japan, Switzerland, Canada, Belgium",-0.0115875,1.59955828851245
+2021-07-01,"Austria, Sweden, Norway, France","Japan, Switzerland, New Zealand, HongKong",0.012825000000000003,1.6200726235626224
+2021-08-01,"Austria, Sweden, France, Norway","New Zealand, Switzerland, Japan, Belgium",-0.0034,1.6145643766425095
+2021-09-01,"Austria, Sweden, France, Netherlands","New Zealand, Japan, HongKong, Belgium",-0.011550000000000001,1.5959161580922887
+2021-10-01,"Austria, Netherlands, France, Sweden","Japan, New Zealand, HongKong, Belgium",0.015662500000000003,1.620912194918409
+2021-11-01,"Austria, Norway, Italy, France","HongKong, New Zealand, Japan, Switzerland",-0.0026999999999999997,1.6165357319921294
+2021-12-01,"Austria, Norway, Sweden, Netherlands","Japan, New Zealand, HongKong, Spain",0.009787500000000001,1.6323575754690025
+2022-01-01,"Austria, Canada, Sweden, France","New Zealand, Spain, Japan, HongKong",-0.00017500000000000154,1.6320719128932955
+2022-02-01,"France, Austria, Canada, Sweden","New Zealand, HongKong, Japan, Spain",-0.0268375,1.5882711829310217
+2022-03-01,"Austria, Canada, Switzerland, France","New Zealand, HongKong, Japan, Spain",0.0016999999999999993,1.5909712439420045
+2022-04-01,"Canada, Norway, Switzerland, Austria","HongKong, Germany, New Zealand, Finland",0.0037250000000000017,1.5968976118256883
+2022-05-01,"Canada, Norway, Australia, Switzerland","Ireland, HongKong, Netherlands, Germany",-0.0113625,1.578752862711319
+2022-06-01,"Canada, Norway, Australia, Switzerland","Germany, Netherlands, Ireland, Sweden",0.0134125,1.5999278854824346
+2022-07-01,"Norway, Canada, Australia, UK","Netherlands, Sweden, Finland, Germany",-0.003262499999999998,1.5947081207560483
+2022-08-01,"Norway, Canada, HongKong, UK","Sweden, Ireland, Germany, Finland",0.011387499999999997,1.6128678594811579
+2022-09-01,"Norway, Canada, Australia, UK","Ireland, Germany, Sweden, Finland",-0.002649999999999996,1.6085937596535327
+2022-10-01,"Canada, Norway, Australia, HongKong","Sweden, Germany, Netherlands, Ireland",-0.0235,1.5707918063016748
+2022-11-01,"Canada, HongKong, Switzerland, Australia","Sweden, Germany, Netherlands, Ireland",-0.012087499999999998,1.5518048603430032
+2022-12-01,"Canada, Norway, Australia, Spain","Sweden, Netherlands, Germany, HongKong",-0.015,1.5285277874378582
+2023-01-01,"Canada, Norway, Australia, Singapore","Sweden, Germany, Netherlands, Ireland",-0.027362499999999998,1.48670344585409
+2023-02-01,"Denmark, Australia, Norway, Canada","Sweden, Germany, Austria, Ireland",-0.011600000000000001,1.4694576858821824
+2023-03-01,"France, Spain, Australia, Italy","Norway, Sweden, New Zealand, Japan",0.007125,1.479927571894093
+2023-04-01,"Spain, Ireland, France, Italy","Norway, New Zealand, Australia, Sweden",0.00885,1.4930249309053558
+2023-05-01,"France, Ireland, Netherlands, Italy","Norway, Australia, New Zealand, Sweden",0.010125,1.5081418083307725
+2023-06-01,"France, Denmark, Ireland, Italy","Norway, Australia, HongKong, New Zealand",0.0106625,1.5242223703620994
+2023-07-01,"Ireland, France, Italy, Denmark","Norway, HongKong, Finland, New Zealand",-0.0027000000000000027,1.5201069699621217
+2023-08-01,"Ireland, Italy, Spain, France","Norway, HongKong, Finland, Sweden",0.0100875,1.5354410490216146
+2023-09-01,"Italy, Ireland, France, Spain","Norway, HongKong, Finland, New Zealand",-0.016224999999999996,1.5105285180012389
+2023-10-01,"Ireland, Italy, Denmark, Spain","HongKong, New Zealand, Singapore, Finland",0.009875000000000002,1.5254449871165012
+2023-11-01,"Italy, Denmark, Ireland, Spain","Finland, New Zealand, Canada, Norway",0.014087500000000003,1.546934693372505
+2023-12-01,"Denmark, Italy, Ireland, Spain","Finland, New Zealand, HongKong, Australia",-0.011024999999999998,1.5298797383780731
+2024-01-01,"Ireland, Italy, Spain, Denmark","HongKong, Finland, New Zealand, Singapore",0.028449999999999996,1.5734048169349295
+2024-02-01,"Denmark, Ireland, Italy, Spain","HongKong, Finland, New Zealand, Singapore",0.013175000000000001,1.5941344253980472
+2024-03-01,"Denmark, Ireland, Japan, Italy","HongKong, Finland, Singapore, New Zealand",0.01815,1.6230679652190216
+2024-04-01,"Ireland, Italy, Denmark, Japan","HongKong, Finland, Singapore, New Zealand",-0.016962500000000002,1.595536674858994
+2024-05-01,"Italy, Ireland, Japan, Denmark","HongKong, Finland, New Zealand, Singapore",-0.0032875000000000005,1.590291348040395
+2024-06-01,"Italy, Denmark, Ireland, Spain","HongKong, New Zealand, Finland, Switzerland",-0.0006624999999999989,1.5892377800223183
+2024-07-01,"Denmark, Italy, Norway, Sweden","HongKong, New Zealand, Finland, France",-0.0047125,1.581748496983963
+2024-08-01,"Denmark, Sweden, Netherlands, Italy","HongKong, New Zealand, France, Singapore",-0.003700000000000001,1.5758960275451224
+2024-09-01,"Sweden, Denmark, Netherlands, Italy","HongKong, France, Finland, New Zealand",-0.027775,1.5321255153800566
+2024-10-01,"Sweden, Denmark, Netherlands, Italy","HongKong, Norway, New Zealand, France",-0.008350000000000003,1.5193322673266332
+2024-11-01,"Sweden, Ireland, Spain, Australia","HongKong, Norway, France, Finland",0.013950000000000002,1.5405269524558396
+2024-12-01,"Singapore, Canada, Ireland, Spain","France, Finland, Norway, New Zealand",0.0022499999999999985,1.5439931380988654
