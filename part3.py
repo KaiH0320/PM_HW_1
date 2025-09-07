@@ -37,9 +37,9 @@ cr_df    = cr.set_index("Date")             # 月 t 用來排序的 11M 累積�
 countries = [c for c in world_df.columns]     # 20 個國家欄位
 
 records = []
-# 使用 t-1 的排序分數在 t 月建倉
+# 使用 t-2 的排序分數在 t 月建倉
 score_cols = [c for c in cr_df.columns if c.endswith("_cumulative")]
-lagged_scores = cr_df[score_cols].shift(1)
+lagged_scores = cr_df[score_cols].shift(2)
 
 for dt in lagged_scores.index:
     prev = lagged_scores.loc[dt].dropna()

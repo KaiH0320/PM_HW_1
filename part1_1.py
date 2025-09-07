@@ -15,7 +15,8 @@ for col in factor_data.columns:
         factor_data[col] = factor_data[col] / 100
 
 
-
+print(index_data.head(3))
+print(index_data.tail(3))
 #print(index_data.head(3))
 #print(factor_data.head(3))
 
